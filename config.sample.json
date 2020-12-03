@@ -1,0 +1,6 @@
+{
+  "weather": "OpenWeatherMap API Key",
+  "city": "Toulouse",
+  "units": "metric",
+  "discord_token": ""
+}
