@@ -240,8 +240,10 @@ def generate_custom_status_content(weather):
 def resolve_icon(weather):
     """
     Resolve the weather icon
+
     Args:
         weather (str): The weather object
+
     Returns:
         emoji (str): The emoji name
     """
