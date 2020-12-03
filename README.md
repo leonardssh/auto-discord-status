@@ -21,7 +21,7 @@ You have to edit the **crontab table** using `crontab -e`. Then, add the followi
 ```sh
 */5 * * * * cd /path/to/auto-discord-status && /usr/bin/python3 /path/to/auto-discord-status/main.py >> ~/discord-cron.log 2>&1
 ```
-This will run the script and update your biography every 5 minutes.
+This will run the script and update your custom status every 5 minutes.
 
 ### That's it
 
