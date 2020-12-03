@@ -240,23 +240,21 @@ def generate_custom_status_content(weather):
 def resolve_icon(weather):
     """
     Resolve the weather icon
-
     Args:
         weather (str): The weather object
-
     Returns:
         emoji (str): The emoji name
     """
     weather_id = str(weather["weather"][0]["id"])
     day_or_night = str(weather["weather"][0]["icon"][2:])
 
+    emoji = '☁'
+
     if weather_id in weather_codes:
         if weather_codes[weather_id] in weather_emojis:
-            return weather_emojis[weather_codes[weather_id]][day_or_night]['emoji_name']
-        else:
-            return '☁'
-    else:
-        return '☁'
+            emoji = weather_emojis[weather_codes[weather_id]][day_or_night]['emoji_name']
+
+    return emoji
 
 def main():
     """
