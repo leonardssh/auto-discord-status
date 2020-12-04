@@ -3,6 +3,8 @@
 
 Remember to 🌟 this Github if you 💖 it.
 
+> **WARNING:** I'm not responsible for any bans resulting in using this. Use at your own risk!!!
+
 ![a1](https://i.imgur.com/9cdAeg3.png)
 
 ## Installation
